@@ -1,0 +1,31 @@
+
+{
+  "missing_value_rules": {
+  "required_variables": {
+    "AE.xpt": ["USUBJID", "AEDECOD"]
+  },
+  "missing_thresholds": {}
+  },
+  "duplicate_record_rules": {
+    "enabled": true
+  },
+  "outlier_rules": {
+    "numeric_variables": {}
+  },
+  "range_rules": {
+    "numeric_ranges": {},
+    "allowed_values": {}
+  },
+  "trend_rules": {
+    "measurement_thresholds": {}
+  },
+  "date_rules": {
+    "date_columns": [],
+    "date_pairs": []
+  },
+  "consistency_rules": [],
+  "sdtm_rules": {
+    "required_variables": {},
+    "controlled_terminology": {}
+  }
+}
